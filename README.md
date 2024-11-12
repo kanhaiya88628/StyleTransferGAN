@@ -8,7 +8,13 @@
 ### source venv/bin/activate
 
 
-### Install Dependencies:
+# Install Dependencies:
 pip install -r requirements.txt
 
-This command will install all the packages listed in requirements.txt.
+# order of running the python scripts:
+### python download_coco.py
+### python download_style_images.py
+### python data_preprocessing.py
+### python train.py
+### streamlit run app.py
+
