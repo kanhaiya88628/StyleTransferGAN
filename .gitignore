@@ -1,0 +1,16 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore any saved models
+saved_models/
+
+# Ignore any data folders that contain large or sensitive files
+data/
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore output images if they are large
+output/
