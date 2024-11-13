@@ -20,7 +20,7 @@ generator_optimizer = tf.keras.optimizers.Adam(learning_rate=0.0002, beta_1=0.5)
 discriminator_optimizer = tf.keras.optimizers.Adam(learning_rate=0.0002, beta_1=0.5)
 
 # Training loop
-epochs = 100  # You can increase this number for better results
+epochs = 10  # You can increase this number for better results
 for epoch in range(epochs):
     print(f"Epoch {epoch + 1}/{epochs}")
     np.random.shuffle(content_images)

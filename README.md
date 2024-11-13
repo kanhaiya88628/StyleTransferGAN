@@ -12,8 +12,9 @@
 pip install -r requirements.txt
 
 # order of running the python scripts:
-### python download_coco.py
-### python download_style_images.py
+### cd src
+### python download_coco.py (change the number of images you want to download)
+### python download_style_images.py (change the number of images you want to download)
 ### python data_preprocessing.py
 ### python train.py
 ### streamlit run app.py
